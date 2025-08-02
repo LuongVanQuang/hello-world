@@ -1,0 +1,14 @@
+/Users/carl.luong1/Documents/projects/devops-task/bin/Debug/net8.0/devops-task
+/Users/carl.luong1/Documents/projects/devops-task/bin/Debug/net8.0/devops-task.deps.json
+/Users/carl.luong1/Documents/projects/devops-task/bin/Debug/net8.0/devops-task.runtimeconfig.json
+/Users/carl.luong1/Documents/projects/devops-task/bin/Debug/net8.0/devops-task.dll
+/Users/carl.luong1/Documents/projects/devops-task/bin/Debug/net8.0/devops-task.pdb
+/Users/carl.luong1/Documents/projects/devops-task/obj/Debug/net8.0/devops-task.GeneratedMSBuildEditorConfig.editorconfig
+/Users/carl.luong1/Documents/projects/devops-task/obj/Debug/net8.0/devops-task.AssemblyInfoInputs.cache
+/Users/carl.luong1/Documents/projects/devops-task/obj/Debug/net8.0/devops-task.AssemblyInfo.cs
+/Users/carl.luong1/Documents/projects/devops-task/obj/Debug/net8.0/devops-task.csproj.CoreCompileInputs.cache
+/Users/carl.luong1/Documents/projects/devops-task/obj/Debug/net8.0/devops-task.dll
+/Users/carl.luong1/Documents/projects/devops-task/obj/Debug/net8.0/refint/devops-task.dll
+/Users/carl.luong1/Documents/projects/devops-task/obj/Debug/net8.0/devops-task.pdb
+/Users/carl.luong1/Documents/projects/devops-task/obj/Debug/net8.0/devops-task.genruntimeconfig.cache
+/Users/carl.luong1/Documents/projects/devops-task/obj/Debug/net8.0/ref/devops-task.dll
