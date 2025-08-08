@@ -3,14 +3,10 @@ name: .NET CI
 on:
   push:
     branches: [ main ]
-<<<<<<< HEAD
-
-=======
 env:
   IMAGE_TAG: ${{ github.sha }}
   DOCKER_BUILDKIT: 1
   DOCKERHUB_USERNAME: quangluong163
->>>>>>> a6b1678 (update pipeline for customer registration)
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
