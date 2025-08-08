@@ -55,7 +55,6 @@ jobs:
         GIT_SHA: ${{ github.sha }}
       run: |
         docker build -t devops-task:$GIT_SHA .
-        docker push devops-task:$GIT_SHA
     - name: Tag and Push to DockerHub
       run: |
         docker tag devops-task:$GIT_SHA ${ env.DOCKERHUB_USERNAME }/devops-task:$GIT_SHA
