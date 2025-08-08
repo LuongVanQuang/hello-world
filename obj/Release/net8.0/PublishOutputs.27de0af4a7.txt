@@ -1,0 +1,5 @@
+/Users/carl.luong1/Documents/projects/devops-task/publish/devops-task
+/Users/carl.luong1/Documents/projects/devops-task/publish/devops-task.dll
+/Users/carl.luong1/Documents/projects/devops-task/publish/devops-task.deps.json
+/Users/carl.luong1/Documents/projects/devops-task/publish/devops-task.runtimeconfig.json
+/Users/carl.luong1/Documents/projects/devops-task/publish/devops-task.pdb

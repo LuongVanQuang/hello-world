@@ -3,7 +3,14 @@ name: .NET CI
 on:
   push:
     branches: [ main ]
+<<<<<<< HEAD
 
+=======
+env:
+  IMAGE_TAG: ${{ github.sha }}
+  DOCKER_BUILDKIT: 1
+  DOCKERHUB_USERNAME: quangluong163
+>>>>>>> a6b1678 (update pipeline for customer registration)
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
@@ -38,3 +45,23 @@ jobs:
         name: hello-world-app
         path: app.zip
 
+# Step 5
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+
+    - name: Login to DockerHub
+      uses: docker/login-action@v3
+      with:
+        username: ${ env.DOCKERHUB_USERNAME }
+        password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+    - name: Build Docker image
+      env:
+        GIT_SHA: ${{ github.sha }}
+      run: |
+        docker build -t devops-task:$GIT_SHA .
+        docker push devops-task:$GIT_SHA
+    - name: Tag and Push to DockerHub
+      run: |
+        docker tag devops-task:$GIT_SHA ${ env.DOCKERHUB_USERNAME }/devops-task:$GIT_SHA
+        docker push ${ env.DOCKERHUB_USERNAME }/devops-task:$GIT_SHA

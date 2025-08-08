@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZyZp9Em4N4FZFfEEfTS+/KbgKGLjvrJuxNSewjD6heE=",
+  "Source": "devops-task",
+  "BasePath": "_content/devops-task",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
